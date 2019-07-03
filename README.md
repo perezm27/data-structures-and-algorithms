@@ -3,3 +3,4 @@
 # Collaborative Acknowledgement
 * Jackie Ly
 * Fabian Brooks
+* Nick Paro
