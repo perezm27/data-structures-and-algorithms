@@ -96,8 +96,8 @@ const hasChildrenValues = (arr, character) => {
   let check = false;
   arr.forEach(value => {
     let entry = Object.values(value);
-    if(entry[0] === character){
-      check = entry[2].length > 0;
+    if(entry[0] === character && entry[2].length > 0){
+      check = true;
     }
   });
   return check;
@@ -115,8 +115,8 @@ const hasChildrenEntries = (arr, character) => {
   let checkValue = false;
   arr.forEach(value => {
     let entry = Object.entries(value);
-    if(entry[0][1] === character){
-      checkValue = entry[2][1].length > 0;
+    if(entry[0][1] === character && entry[2][1].length > 0){
+      checkValue = true;
     }
   })
   return checkValue;
@@ -155,7 +155,17 @@ For example: [{ house: 'Stark', members: 7 }, { house: 'Arryn', members: 3 }, ..
 
 const houseSize = (arr) => {
   const sizes = [];
-  // Solution code here...
+  Object.values(arr).forEach(value =>{
+    let count = 1;
+    let house = new Object();
+    if(value.spouse !== null){
+      count++;
+    }
+    count += value.children.length;
+    house.house = value.house;
+    house.members = count;
+    sizes.push(house);
+  })
   return sizes;
 };
 
@@ -179,7 +189,17 @@ const deceasedSpouses = ['Catelyn', 'Lysa', 'Robert', 'Khal Drogo', 'Alerie'];
 
 const houseSurvivors = (arr) => {
   const survivors = [];
-  // Solution code here...
+  Object.values(arr).forEach(value =>{
+    let count = 1;
+    let house = new Object();
+    if(value.spouse !== null && !deceasedSpouses.includes(value.spouse)){
+      count++;
+    }
+    count += value.children.length;
+    house.house = value.house;
+    house.members = count;
+    survivors.push(house);
+  })
   return survivors;
 };
 
