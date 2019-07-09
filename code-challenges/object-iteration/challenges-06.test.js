@@ -96,8 +96,8 @@ const hasChildrenValues = (arr, character) => {
   let check = false;
   arr.forEach(value => {
     let entry = Object.values(value);
-    if(entry[0] === character){
-      check = entry[2].length > 0;
+    if(entry[0] === character && entry[2].length > 0){
+      check = true;
     }
   });
   return check;
@@ -115,8 +115,8 @@ const hasChildrenEntries = (arr, character) => {
   let checkValue = false;
   arr.forEach(value => {
     let entry = Object.entries(value);
-    if(entry[0][1] === character){
-      checkValue = entry[2][1].length > 0;
+    if(entry[0][1] === character && entry[2][1].length > 0){
+      checkValue = true;
     }
   })
   return checkValue;
@@ -155,7 +155,17 @@ For example: [{ house: 'Stark', members: 7 }, { house: 'Arryn', members: 3 }, ..
 
 const houseSize = (arr) => {
   const sizes = [];
-  // Solution code here...
+  Object.values(arr).forEach(value =>{
+    let count = 1;
+    let house = new Object();
+    if(value.spouse !== null){
+      count++;
+    }
+    count += value.children.length;
+    house.house = value.house;
+    house.members = count;
+    sizes.push(house);
+  })
   return sizes;
 };
 
@@ -179,7 +189,17 @@ const deceasedSpouses = ['Catelyn', 'Lysa', 'Robert', 'Khal Drogo', 'Alerie'];
 
 const houseSurvivors = (arr) => {
   const survivors = [];
-  // Solution code here...
+  Object.values(arr).forEach(value =>{
+    let count = 1;
+    let house = new Object();
+    if(value.spouse !== null && !deceasedSpouses.includes(value.spouse)){
+      count++;
+    }
+    count += value.children.length;
+    house.house = value.house;
+    house.members = count;
+    survivors.push(house);
+  })
   return survivors;
 };
 
@@ -194,20 +214,20 @@ Run your tests from the console: jest challenges-06.test.js
 
 ------------------------------------------------------------------------------------------------ */
 
-describe('Testing challenge 1', () => {
+xdescribe('Testing challenge 1', () => {
   test('It should return the keys from an object', () => {
     expect(getCourseKeys(courseInfo)).toStrictEqual([ 'name', 'duration', 'topics', 'finalExam' ]);
   });
 });
 
-describe('Testing challenge 2', () => {
+xdescribe('Testing challenge 2', () => {
   test('It should return an array of the names of the houses', () => {
     expect(getHouses(characters)).toStrictEqual([ 'Stark', 'Arryn', 'Lannister', 'Targaryen', 'Tyrell', 'Stark', 'Snow' ]);
     expect(getHouses(characters).length).toStrictEqual(7);
   });
 });
 
-describe('Testing challenge 3', () => {
+xdescribe('Testing challenge 3', () => {
   test('It should return true for characters that have children', () => {
     expect(hasChildrenValues(characters, 'Daenarys')).toBeTruthy();
   });
@@ -217,7 +237,7 @@ describe('Testing challenge 3', () => {
   });
 });
 
-describe('Testing challenge 4', () => {
+xdescribe('Testing challenge 4', () => {
   test('It should return true for characters that have children', () => {
     expect(hasChildrenEntries(characters, 'Eddard')).toBeTruthy();
   });
@@ -227,13 +247,13 @@ describe('Testing challenge 4', () => {
   });
 });
 
-describe('Testing challenge 5', () => {
+xdescribe('Testing challenge 5', () => {
   test('It should return the number of characters in the array', () => {
     expect(totalCharacters(characters)).toStrictEqual(27);
   });
 });
 
-describe('Testing challenge 6', () => {
+xdescribe('Testing challenge 6', () => {
   test('It should return an object for each house containing the name and size', () => {
     expect(houseSize(characters)).toStrictEqual([ { house: 'Stark', members: 7 }, { house: 'Arryn', members: 3 }, { house: 'Lannister', members: 5 }, { house: 'Targaryen', members: 5 }, { house: 'Tyrell', members: 4 }, { house: 'Stark', members: 2 }, { house: 'Snow', members: 1 } ]);
     expect(houseSize(characters).length).toStrictEqual(7);
