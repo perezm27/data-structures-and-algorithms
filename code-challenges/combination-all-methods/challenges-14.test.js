@@ -10,14 +10,12 @@ For example, ['apple', 'banana', 'MacGyver'] returns ['Apple', 'Banana', 'MacGyv
 
 const toTitleCase = arr => {
   // Solution code here...
+  let newArr = [];
   arr.map(el => {
-    console.log('el: ', el);
-    return el
-      .split()
-      .charAt(0)
-      .toUpperCase()
-      .join('');
+    let upperCase = el.charAt(0).toUpperCase();
+    newArr.push(el.replace(el.charAt(0), upperCase));
   });
+  return newArr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -95,6 +93,14 @@ let starWarsData = [
 
 let biggerThanLuke = arr => {
   // Solution code here...
+  let target = 77;
+  let container = [];
+  arr.filter(el => {
+    if (el.mass > target) {
+      container.push(el.name);
+    }
+  });
+  return container.join(' - ');
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -113,6 +119,15 @@ This data could be sorted by name or price.
 
 const sortBy = (property, arr) => {
   // Solution code here...
+  return arr.sort((a, b) => {
+    if (a[property] > b[property]) {
+      return 1;
+    } else if (a[property] < b[property]) {
+      return -1;
+    } else {
+      return 0;
+    }
+  });
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -129,6 +144,11 @@ https:/missingslash.org returns false because the URL is malformed
 ------------------------------------------------------------------------------------------------ */
 const isSecure = url => {
   // Solution code here...
+  if (url.match(/(https:\/\/)/gm)) {
+    return true;
+  } else {
+    return false;
+  }
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -174,7 +194,7 @@ describe('Testing challenge 1', () => {
   });
 });
 
-xdescribe('Testing challenge 2', () => {
+describe('Testing challenge 2', () => {
   test('It should return only characters that are bigger than Luke', () => {
     expect(biggerThanLuke(starWarsData)).toStrictEqual(
       'Darth Vader - Pex Kylar'
@@ -183,7 +203,7 @@ xdescribe('Testing challenge 2', () => {
   });
 });
 
-xdescribe('Testing challenge 3', () => {
+describe('Testing challenge 3', () => {
   test('It should sort items by a price', () => {
     expect(
       sortBy('price', [
@@ -213,7 +233,7 @@ xdescribe('Testing challenge 3', () => {
   });
 });
 
-xdescribe('Testing challenge 4', () => {
+describe('Testing challenge 4', () => {
   test('It should check if url is https', () => {
     expect(isSecure('http://www.insecure.com')).toBe(false);
     expect(isSecure('https://secure.com')).toBe(true);
@@ -221,7 +241,7 @@ xdescribe('Testing challenge 4', () => {
   });
 });
 
-xdescribe('Testing challenge 5', () => {
+describe('Testing challenge 5', () => {
   test('It should return true if there are three in a row', () => {
     expect(
       detectTicTacToeWin([['X', '', 'O'], ['X', 'O', ''], ['X', 'O', 'X']])
