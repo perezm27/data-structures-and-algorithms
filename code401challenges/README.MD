@@ -11,5 +11,8 @@ The challenge was to define a method which takes in an array of integers and ret
 - [x] assign reversed values into output Array at the reversed index subtracted by i
 - [x] return output array  
 
+## Collaborative Efforts
+Padmapriya Ganapathi
+
 ## Solution
 ![Image description](assets/array_reverse.jpg)
