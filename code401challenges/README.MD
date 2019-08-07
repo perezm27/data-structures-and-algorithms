@@ -37,7 +37,7 @@ Without utilizing any of the built-in methods available to your language, return
 - [x] Return new Array
 
 ## Collaborative Efforts
-Matt Stuhring
+Matt Stuhring  
 Peter Lee
 
 ## Solution
