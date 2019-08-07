@@ -16,6 +16,5 @@ public class ArrayShiftTest {
 
 
         assertArrayEquals(expectedOutputArr, ArrayShift.arrayShift(testArr, testNumToBeAdded));
-
     }
 }
