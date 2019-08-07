@@ -1,6 +1,5 @@
 # data-structures-and-algorithms
 
-# Collaborative Acknowledgement
-* Jackie Ly
-* Fabian Brooks
-* Nick Paro
+[Code 301 Challenges](./code-challenges)  
+[Code 401 Challenges](./code401challenges)
+
