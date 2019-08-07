@@ -1,12 +1,12 @@
-# Reverse an Array
+# Code Challenge 01 : Reverse an Array
 A short Java program that reverses an array.
 
 ## Challenge
-The challenge was to define a method which takes in an array of integers and returns that array in decending order.
+The challenge was to define a method which takes in an array of integers and returns that array in descending order.
 
 ## Approach & Efficiency
 - [x] Write a method that takes in an array of integers as argument
-- [x] Instatiate a new array of integers to hold our reversed values
+- [x] Instantiate a new array of integers to hold our reversed values
 - [x] iterate through input array in reverse order with reverse for loop
 - [x] assign reversed values into output Array at the reversed index subtracted by i
 - [x] return output array  
@@ -16,3 +16,30 @@ Padmapriya Ganapathi
 
 ## Solution
 ![Image description](assets/array_reverse.jpg)
+
+
+# Code Challenge 02 : Shift Array
+
+## Challenge
+Write a function called insertShiftArray which takes in an array and the value to be added.
+Without utilizing any of the built-in methods available to your language, return an array with the new value added at the middle index.
+
+## Approach & Efficiency
+- [x] Create new Array that can hold the old array plus the intended added element
+- [x] Create new variable to keep track of indexes.
+- [x] Determine middle index that the new element will be added to
+- [x] Iterate through input array
+- [x] Check when the index of the array is at our target index
+- [x] Insert new element
+- [x] Increment index variable
+- [x] Assign old array to the new array at the index outlined by our countOfIndex variable.
+- [x] Increment index variable
+- [x] Return new Array
+
+## Collaborative Efforts
+Matt Stuhring
+Peter Lee
+
+## Solution
+![Image description](assets/challenge2Whiteboard.jpg)
+
