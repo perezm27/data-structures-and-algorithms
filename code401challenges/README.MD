@@ -40,3 +40,6 @@ Without utilizing any of the built-in methods available to your language, return
 Matt Stuhring
 Peter Lee
 
+## Solution
+![Image description](assets/challenge2Whiteboard.jpg)
+
