@@ -43,3 +43,24 @@ Peter Lee
 ## Solution
 ![Image description](assets/challenge2Whiteboard.jpg)
 
+# Code Challenge 03 : Binary Search
+
+## Challenge
+Write a function called BinarySearch which takes in 2 parameters: a sorted array and the search key. 
+Without utilizing any of the built-in methods available to your language, return the index of the array’s 
+element that is equal to the search key, or -1 if the element does not exist.
+
+## Approach & Efficiency
+- [x] Write a function that takes in the sorted array and the search key.
+- [x] Create variables to keep track of min index, max index and the midpoint which is the length of array / 2
+- [x] Make a comparison starting at the midpoint and cut the size of the array depending on the value of the key
+- [x] return the index of the element which contains our key
+- [x] return -1 is element does not exist
+
+## Collaborative Efforts
+Travis Cox  
+Matt Stuhring  
+
+## Solution
+![Image description](assets/BinarySearch.jpg)
+
