@@ -59,7 +59,6 @@ element that is equal to the search key, or -1 if the element does not exist.
 
 ## Collaborative Efforts
 Travis Cox  
-Matt Stuhring  
 
 ## Solution
 ![Image description](assets/BinarySearch.jpg)
