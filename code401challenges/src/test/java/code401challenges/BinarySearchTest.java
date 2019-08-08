@@ -25,4 +25,15 @@ public class BinarySearchTest {
 
         assertEquals(expectedOutput, BinarySearch.binarySearch(sortedArr, key));
     }
+
+    @Test
+    public void testBinarySearch_oddArr() {
+        int[] sortedArr = new int[]{11,22,33,44,55,66,77};
+        int key = 55;
+
+        int expectedOutput = 4;
+
+        assertEquals(expectedOutput, BinarySearch.binarySearch(sortedArr, key));
+    }
+
 }
