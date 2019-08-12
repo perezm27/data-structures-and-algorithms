@@ -15,7 +15,6 @@ public class LinkedListTest {
         ll.insert(new Node(2));
         ll.insert(new Node(1));
 
-        System.out.println(ll.toString());
         assertEquals("Linked List: 1, 2, 7, 3", ll.toString());
 
     }
@@ -38,7 +37,6 @@ public class LinkedListTest {
         ll.insert(new Node(2));
         ll.insert(new Node(1));
 
-        System.out.println(ll.toString());
         assertEquals("That is not the head of the Linked List", ll.head.value, 1);
 
     }

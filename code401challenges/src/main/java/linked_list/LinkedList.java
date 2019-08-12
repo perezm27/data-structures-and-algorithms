@@ -10,11 +10,11 @@ public class LinkedList {
 
 //  Set head
     public void setHead(int value){
-//      creates new node
+//  creates new node
         head = new Node(value);
     }
 
-    //Define a method called insert
+//  Define a method called insert
     public void insert(Node newNode){
         if(head == null){
             head = newNode;
@@ -24,7 +24,7 @@ public class LinkedList {
         }
 
     }
-// Checks to see if a value exists in our linked list
+//  Checks to see if a value exists in our linked list
     public Boolean includes(Node node){
         Node current = head;
         //iterates through linked list
@@ -32,7 +32,7 @@ public class LinkedList {
             if(current.value == node.value){
                 return true;
             }
-            //Resets current
+//  Resets current
             current = current.next;
         }
 
@@ -52,7 +52,7 @@ public class LinkedList {
                 output = output.append(node.value );
             }
 
-            //points to the next node
+//  Points to the next node
             node = node.next;
         }
 
