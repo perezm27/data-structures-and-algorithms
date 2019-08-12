@@ -16,6 +16,6 @@ Implement a linked list without using any built it Class methods in Java.
 * Nick Paro
 * Jack Kinne
 * Travis Cox  
-[Linked List Overview](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html)  
-[Creating Linked List](https://stackoverflow.com/questions/4066729/creating-a-linkedlist-class-from-scratch)  
-[To String Example](https://sites.cs.ucsb.edu/~franklin/20/discussions/LinkedList.java)
+* [Linked List Overview](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html)  
+* [Creating Linked List](https://stackoverflow.com/questions/4066729/creating-a-linkedlist-class-from-scratch)  
+* [To String Example](https://sites.cs.ucsb.edu/~franklin/20/discussions/LinkedList.java)
