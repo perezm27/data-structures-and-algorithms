@@ -14,7 +14,7 @@ public class LinkedList {
         head = new Node(value);
     }
 
-//  Define a method called insert
+//  Adds new node at the beginning of the Linked list
     public void insert(Node newNode){
         if(head == null){
             head = newNode;
@@ -32,11 +32,50 @@ public class LinkedList {
             if(current.value == node.value){
                 return true;
             }
-//  Resets current
+//  Resets current to point to the next node in the next iteration
             current = current.next;
         }
 
         return false;
+    }
+
+//  Adds node to the end of the linked List
+    public void append(int value){
+        Node current = head;
+        while(current.next != null){
+            current = current.next;
+        }
+            Node newNode = new Node(value);
+            current.next = newNode;
+    }
+
+//  Inserts new node before a given value
+    public void insertBefore(int value, int newVal){
+        Node current = head;
+        while(current != null){
+            if(current.next.value == value){
+                Node newNode = new Node(newVal);
+                newNode.next = current.next;
+                current.next = newNode;
+                return;
+            }
+            current = current.next;
+        }
+    }
+
+// Inserts new node after a given value
+    public void insertAfter(int value, int newVal){
+        Node current = head;
+        while(current != null){
+            if(current.value == value){
+                Node newNode = new Node(newVal);
+                newNode.next = current.next;
+                current.next = newNode;
+                return;
+            }
+            current = current.next;
+        }
+
     }
 
 //  Returns a string representing all the values in the Linked List.
