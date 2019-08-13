@@ -63,3 +63,22 @@ Travis Cox
 ## Solution
 ![Image description](assets/BinarySearch.jpg)
 
+# Code Challenge 06 : Linked list Insertions
+
+## Challenge
+Write the following methods for the Linked List class:
+
+* .append(value) which adds a new node with the given value to the end of the list
+* .insertBefore(value, newVal) which add a new node with the given newValue immediately before the first value node
+* .insertAfter(value, newVal) which add a new node with the given newValue immediately after the first value node
+
+
+## Approach & Efficiency
+O(n) time complexity for this data structure with O(1) space.
+
+## Collaborative Efforts
+Kevin Couture  
+
+## Solution
+![Image description](assets/ll-insertions.jpg)
+
