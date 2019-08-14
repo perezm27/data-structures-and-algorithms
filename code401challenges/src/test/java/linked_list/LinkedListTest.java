@@ -115,4 +115,17 @@ public class LinkedListTest {
         ll.insertAfter(7,9);
         assertEquals("Linked List: 1, 2, 7, 9, 3", ll.toString());
     }
+
+    @Test
+    public void insertK() {
+        LinkedList ll = new LinkedList();
+
+        ll.insert(new Node(3));
+        ll.insert(new Node(7));
+        ll.insert(new Node(2));
+        ll.insert(new Node(1));
+
+
+        assertEquals(1, ll.insertK(0));
+    }
 }

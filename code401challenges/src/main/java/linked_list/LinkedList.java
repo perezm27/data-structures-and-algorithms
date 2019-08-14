@@ -78,6 +78,26 @@ public class LinkedList {
 
     }
 
+//  Returns node in k-th value from the end of a linked list.
+    public int insertK(int k){
+        int length = 0;
+        Node current = head;
+//  Captures length of linked list
+        while (current != null){
+            current = current.next;
+            length++;
+        }
+//  sets klength
+        current = head;
+        for (int i = 0; i < length - k - 1; i++) {
+            if (i == k){
+                return current.value;
+            }
+            current = current.next;
+        }
+        return current.value;
+    }
+
 //  Returns a string representing all the values in the Linked List.
     public String toString(){
         StringBuilder output = new StringBuilder("Linked List: ");
