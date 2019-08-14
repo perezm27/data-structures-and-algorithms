@@ -115,4 +115,67 @@ public class LinkedListTest {
         ll.insertAfter(7,9);
         assertEquals("Linked List: 1, 2, 7, 9, 3", ll.toString());
     }
+
+    @Test
+    public void testInsertK() {
+        LinkedList ll = new LinkedList();
+
+        ll.insert(new Node(3));
+        ll.insert(new Node(7));
+        ll.insert(new Node(2));
+        ll.insert(new Node(1));
+
+
+        assertEquals(1, ll.insertK(0));
+    }
+
+    @Test
+    public void testInsertK_greater_than_length() {
+        LinkedList ll = new LinkedList();
+
+        ll.insert(new Node(3));
+        ll.insert(new Node(7));
+        ll.insert(new Node(2));
+        ll.insert(new Node(1));
+
+        int exception = -1;
+        assertEquals(exception, ll.insertK(5));
+    }
+
+    @Test
+    public void testInsertK_same_length() {
+        LinkedList ll = new LinkedList();
+
+        ll.insert(new Node(3));
+        ll.insert(new Node(7));
+        ll.insert(new Node(2));
+        ll.insert(new Node(1));
+
+
+        assertEquals(1, ll.insertK(3));
+    }
+
+    @Test
+    public void testInsertK_negative_num() {
+        LinkedList ll = new LinkedList();
+
+        ll.insert(new Node(3));
+        ll.insert(new Node(7));
+        ll.insert(new Node(2));
+        ll.insert(new Node(1));
+
+       int exception = -1;
+        assertEquals(exception, ll.insertK(-1));
+    }
+
+    @Test
+    public void testInsertK_size1() {
+        LinkedList ll = new LinkedList();
+
+        ll.insert(new Node(3));
+
+
+
+        assertEquals(3, ll.insertK(0));
+    }
 }
