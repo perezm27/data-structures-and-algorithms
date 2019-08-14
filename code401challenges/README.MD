@@ -82,3 +82,13 @@ Kevin Couture
 ## Solution
 ![Image description](assets/ll-insertions.jpg)
 
+# Code Challenge 07 : Linked list k-th position from end Insertion
+
+## Challenge
+Write a method for the Linked List class which takes a number, k, as a parameter. Return the node’s value that is k from the end of the linked list. 
+
+## Approach & Efficiency
+O(n) time complexity for this data structure with O(1) space.
+
+## Solution
+
