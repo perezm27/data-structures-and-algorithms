@@ -81,6 +81,9 @@ public class LinkedList {
 //  Returns node in k-th value from the end of a linked list.
     public int insertK(int k){
         int length = 0;
+//  exception to deal with null pointer values
+        int exception = -1;
+
         Node current = head;
 //  Captures length of linked list
         while (current != null){
@@ -95,7 +98,8 @@ public class LinkedList {
             }
             current = current.next;
         }
-        return current.value;
+      return exception;
+
     }
 
 //  Returns a string representing all the values in the Linked List.

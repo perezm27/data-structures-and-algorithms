@@ -117,7 +117,7 @@ public class LinkedListTest {
     }
 
     @Test
-    public void insertK() {
+    public void testInsertK() {
         LinkedList ll = new LinkedList();
 
         ll.insert(new Node(3));
@@ -127,5 +127,55 @@ public class LinkedListTest {
 
 
         assertEquals(1, ll.insertK(0));
+    }
+
+    @Test
+    public void testInsertK_greater_than_length() {
+        LinkedList ll = new LinkedList();
+
+        ll.insert(new Node(3));
+        ll.insert(new Node(7));
+        ll.insert(new Node(2));
+        ll.insert(new Node(1));
+
+        int exception = -1;
+        assertEquals(exception, ll.insertK(5));
+    }
+
+    @Test
+    public void testInsertK_same_length() {
+        LinkedList ll = new LinkedList();
+
+        ll.insert(new Node(3));
+        ll.insert(new Node(7));
+        ll.insert(new Node(2));
+        ll.insert(new Node(1));
+
+
+        assertEquals(1, ll.insertK(3));
+    }
+
+    @Test
+    public void testInsertK_negative_num() {
+        LinkedList ll = new LinkedList();
+
+        ll.insert(new Node(3));
+        ll.insert(new Node(7));
+        ll.insert(new Node(2));
+        ll.insert(new Node(1));
+
+       int exception = -1;
+        assertEquals(exception, ll.insertK(-1));
+    }
+
+    @Test
+    public void testInsertK_size1() {
+        LinkedList ll = new LinkedList();
+
+        ll.insert(new Node(3));
+
+
+
+        assertEquals(3, ll.insertK(0));
     }
 }
