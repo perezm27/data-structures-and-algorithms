@@ -129,7 +129,7 @@ public class LinkedListTest {
         assertEquals(1, ll.insertK(0));
     }
 
-    @Test
+    @Test(expected = IllegalArgumentException.class)
     public void testInsertK_greater_than_length() {
         LinkedList ll = new LinkedList();
 
@@ -138,8 +138,7 @@ public class LinkedListTest {
         ll.insert(new Node(2));
         ll.insert(new Node(1));
 
-        int exception = -1;
-        assertEquals(exception, ll.insertK(5));
+        int testActual = ll.insertK(10);
     }
 
     @Test
@@ -151,11 +150,10 @@ public class LinkedListTest {
         ll.insert(new Node(2));
         ll.insert(new Node(1));
 
-
         assertEquals(1, ll.insertK(3));
     }
 
-    @Test
+    @Test(expected = IllegalArgumentException.class)
     public void testInsertK_negative_num() {
         LinkedList ll = new LinkedList();
 
@@ -164,8 +162,7 @@ public class LinkedListTest {
         ll.insert(new Node(2));
         ll.insert(new Node(1));
 
-       int exception = -1;
-        assertEquals(exception, ll.insertK(-1));
+       int testActual = ll.insertK(-1);
     }
 
     @Test
@@ -177,5 +174,77 @@ public class LinkedListTest {
 
 
         assertEquals(3, ll.insertK(0));
+    }
+
+    @Test
+    public void testCanMergeList(){
+        LinkedList llOne = new LinkedList();
+        llOne.append(3);
+        llOne.append(7);
+        llOne.append(2);
+
+        LinkedList llTwo = new LinkedList();
+        llTwo.append(7);
+        llTwo.append(2);
+        llTwo.append(3);
+
+        LinkedList result = LinkedList.mergeLists(llOne, llTwo);
+        assertEquals("Linked List: 3, 7, 7, 2, 2, 3", result.toString());
+    }
+
+    @Test
+    public void testCanMergeUneven(){
+        LinkedList llOne = new LinkedList();
+        llOne.append(7);
+        llOne.append(3);
+        llOne.append(2);
+
+        LinkedList llTwo = new LinkedList();
+        llTwo.append(8);
+        llTwo.append(4);
+
+        LinkedList result = LinkedList.mergeLists(llOne, llTwo);
+        assertEquals("Linked List: 7, 8, 3, 4, 2", result.toString());
+    }
+
+
+    @Test
+    public void testCanMergeSecondListIsLonger(){
+        LinkedList llOne = new LinkedList();
+        llOne.append(7);
+        llOne.append(3);
+        llOne.append(2);
+
+        LinkedList llTwo = new LinkedList();
+        llTwo.append(2);
+        llTwo.append(4);
+        llTwo.append(6);
+        llTwo.append(8);
+
+        LinkedList result = LinkedList.mergeLists(llOne, llTwo);
+        assertEquals("Linked List: 7, 2, 3, 4, 2, 6, 8", result.toString());
+    }
+
+    @Test
+    public void testCanMergeOneList(){
+        LinkedList llOne = new LinkedList();
+        llOne.append(7);
+        llOne.append(3);
+        llOne.append(2);
+
+        LinkedList llTwo = new LinkedList();
+
+        LinkedList result = LinkedList.mergeLists(llOne, llTwo);
+        assertEquals("Linked List: 7, 3, 2", result.toString());
+    }
+
+    @Test(expected = NullPointerException.class)
+    public void testEmpty(){
+        LinkedList llOne = new LinkedList();
+
+        LinkedList llTwo = new LinkedList();
+
+        LinkedList result = LinkedList.mergeLists(llOne, llTwo);
+
     }
 }
