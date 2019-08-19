@@ -3,8 +3,6 @@ package stacksandqueues;
 public class Node {
     protected int value;
     protected Node next;
-    protected Node front;
-    protected Node rear;
 
     public Node(int value) {
         this.value = value;
@@ -15,11 +13,4 @@ public class Node {
         return this.value;
     }
 
-    public void getFront(Node front) {
-        this.front = front;
-    }
-
-    public void getRear(Node rear) {
-        this.rear = rear;
-    }
 }
