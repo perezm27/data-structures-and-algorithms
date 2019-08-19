@@ -2,7 +2,7 @@
 Implement a Stack and a Queue Data Structure
 
 ## Approach & Efficiency
-O(n) time complexity for this data structure with O(1) space.  
+O(n) time complexity for these two data structures due to my toString method which iterates through the entire Queue & stack with O(1) space.  
 <b>Stack :  </b>
 * Push O(1)  
 * Pop O(1)  
