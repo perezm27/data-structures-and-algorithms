@@ -124,6 +124,6 @@ The Stack instances have only push, pop, and peek methods. You should use your o
 * Space : O(1)
 
 ## Solution
-![Image description](assets/QueueWithStacks.jpg)
+![Image description](assets/QueueWithStacks.JPG)
 
 
