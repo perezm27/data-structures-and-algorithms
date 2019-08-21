@@ -132,7 +132,10 @@ The Stack instances have only push, pop, and peek methods. You should use your o
 Create a class called AnimalShelter which holds only dogs and cats. The shelter operates using a first-in, first-out approach.
 
 ## Approach & Efficiency
-* Complexity : O(n)  
+* String Builder - Complexity : O(n)  
+* Enqueue O(1)
+* Dequeue O(1)
+* Peek O(1)
 * Space : O(1)
 
 ## Solution
