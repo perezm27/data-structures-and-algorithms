@@ -1,8 +1,8 @@
 package stacksandqueues;
 
 public class PseudoQueue {
-    Stack stack1 = new Stack();
-    Stack stack2 = new Stack();
+    Stack<Integer> stack1 = new Stack<>();
+    Stack<Integer> stack2 = new Stack<>();
 
     public void enQueue(int value){
 //  pushes values into first stack

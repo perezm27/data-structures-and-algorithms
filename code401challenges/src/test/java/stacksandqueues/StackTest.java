@@ -16,7 +16,7 @@ public class StackTest {
 
     @Test
     public void testPush() {
-        Stack newStack = new Stack();
+        Stack<Integer> newStack = new Stack<>();
         newStack.push(1);
         newStack.push(3);
         newStack.push(4);
@@ -27,7 +27,7 @@ public class StackTest {
 
     @Test
     public void testPop() {
-        Stack newStack = new Stack();
+        Stack<Integer> newStack = new Stack<>();
         newStack.push(1);
         newStack.push(3);
         newStack.push(4);
@@ -39,7 +39,7 @@ public class StackTest {
 
     @Test(expected = NullPointerException.class)
     public void testEmptyPop() {
-        Stack newStack = new Stack();
+        Stack<Integer> newStack = new Stack<>();
         newStack.push(1);
         newStack.push(3);
         newStack.push(4);
@@ -52,18 +52,18 @@ public class StackTest {
 
     @Test
     public void testPeek() {
-        Stack newStack = new Stack();
+        Stack<Integer> newStack = new Stack<>();
         newStack.push(1);
         newStack.push(3);
         newStack.push(4);
         newStack.push(8);
 
-        assertEquals(8, newStack.peek());
+        assertEquals(8, java.util.Optional.ofNullable(newStack.peek()));
     }
 
     @Test(expected = NullPointerException.class)
     public void testEmptyStack() {
-        Stack newStack = new Stack();
+        Stack<Integer> newStack = new Stack<>();
 
         newStack.peek();
     }

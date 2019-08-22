@@ -1,6 +1,6 @@
 package stacksandqueues;
 
-public class Queue {
+public class Queue<C> {
     protected Node front;
     protected Node rear;
 
@@ -23,8 +23,8 @@ public class Queue {
     }
 
 //  Removes an item from the front of the Queue
-    public int dequeue(){
-        int value = this.front.getValue();
+    public C dequeue(){
+        C value = (C) this.front.getValue();
         if (this.front == null){
             throw new NullPointerException("top is null");
         } else {
@@ -37,11 +37,11 @@ public class Queue {
     }
 
 //  Checks the value in the front of the Queue without removing that node.
-    public int peek(){
+    public C peek(){
         if (this.front == null){
             throw new NullPointerException("front is null");
         }
-        return this.front.value;
+        return (C) this.front.value;
     }
 
 
