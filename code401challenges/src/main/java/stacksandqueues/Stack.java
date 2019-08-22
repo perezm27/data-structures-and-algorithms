@@ -1,10 +1,10 @@
 package stacksandqueues;
 
-public class Stack {
+public class Stack<C> {
     protected Node top;
 
 //  Adds new node to top
-    public void push(int value){
+    public void push(C value){
         Node newNode = new Node (value);
 
         newNode.next = this.top;
@@ -12,8 +12,8 @@ public class Stack {
     }
 
 //  Removes the node from the top of the stack
-    public int pop(){
-        int value = this.top.getValue();
+    public C pop(){
+        C value = (C) this.top.getValue();
         if (this.top == null){
             throw new NullPointerException("top is null");
         } else {
@@ -25,11 +25,11 @@ public class Stack {
     }
 
 //  Checks the value in the front of the Queue without removing that node.
-    public int peek(){
+    public C peek(){
         if (this.top == null){
             throw new NullPointerException("top is null");
         }
-        return this.top.value;
+        return (C) this.top.value;
     }
 
 //  ToString Method
