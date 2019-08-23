@@ -69,4 +69,12 @@ public class StackTest {
     }
 
 
+    @Test
+    public void isEmpty() {
+        Stack<Integer> newStack = new Stack<>();
+
+        assertTrue(newStack.isEmpty());
+
+
+    }
 }
