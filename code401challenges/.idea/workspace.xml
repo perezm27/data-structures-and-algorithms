@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0b795fd0-17fa-48ed-a21b-45ceb7ec028b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stacksandqueues/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stacksandqueues/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stacksandqueues/PseudoQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stacksandqueues/PseudoQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stacksandqueues/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stacksandqueues/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/stacksandqueues/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stacksandqueues/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stacksandqueues/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stacksandqueues/StackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/MultiBracketValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/MultiBracketValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/MultiBracketValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/MultiBracketValidationTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -26,29 +24,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/utilities/MultiBracketValidation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            <state relative-caret-position="544">
+              <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/Stack.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/utilities/MultiBracketValidationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/Queue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+            <state relative-caret-position="153">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="14" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -56,26 +45,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stacksandqueues/StackTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+            <state relative-caret-position="603">
+              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stacksandqueues/QueueTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="66" column="10" lean-forward="true" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/PseudoQueue.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/utilities/AnimalShelterTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -85,8 +65,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -115,20 +95,20 @@
         <option value="$PROJECT_DIR$/src/test/java/stacksandqueues/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/stacksandqueues/PseudoQueueTest.java" />
         <option value="$PROJECT_DIR$/README.MD" />
-        <option value="$PROJECT_DIR$/src/test/java/utilities/MultiBracketValidation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/stacksandqueues/PseudoQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/stacksandqueues/Queue.java" />
         <option value="$PROJECT_DIR$/src/main/java/stacksandqueues/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/stacksandqueues/Stack.java" />
         <option value="$PROJECT_DIR$/src/test/java/stacksandqueues/StackTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/stacksandqueues/PseudoQueue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/stacksandqueues/Queue.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utilities/MultiBracketValidationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utilities/MultiBracketValidation.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="31" />
-    <option name="y" value="32" />
-    <option name="width" value="1440" />
-    <option name="height" value="813" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="984" />
+    <option name="width" value="456" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -214,7 +194,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566504622954" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566527844739" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -224,6 +204,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="utilities" />
       <recent name="stacksandqueues" />
       <recent name="linked_list" />
       <recent name="code401challenges" />
@@ -249,18 +230,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StackTest.testPeek">
-    <configuration name="PseudoQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MultiBracketValidationTest.testMultiBracketValidation">
+    <configuration name="MultiBracketValidationTest.testMultiBracketValidation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401challenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stacksandqueues.*" />
+          <option name="PATTERN" value="utilities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="stacksandqueues" />
-      <option name="MAIN_CLASS_NAME" value="stacksandqueues.PseudoQueueTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="utilities" />
+      <option name="MAIN_CLASS_NAME" value="utilities.MultiBracketValidationTest" />
+      <option name="METHOD_NAME" value="testMultiBracketValidation" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -281,22 +263,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PseudoQueueTest.testEmptyEnQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code401challenges.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stacksandqueues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stacksandqueues" />
-      <option name="MAIN_CLASS_NAME" value="stacksandqueues.PseudoQueueTest" />
-      <option name="METHOD_NAME" value="testEmptyEnQueue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401challenges.test" />
       <extension name="coverage">
@@ -308,6 +274,22 @@
       <option name="PACKAGE_NAME" value="stacksandqueues" />
       <option name="MAIN_CLASS_NAME" value="stacksandqueues.StackTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackTest.isEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code401challenges.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stacksandqueues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stacksandqueues" />
+      <option name="MAIN_CLASS_NAME" value="stacksandqueues.StackTest" />
+      <option name="METHOD_NAME" value="isEmpty" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -330,11 +312,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MultiBracketValidationTest.testMultiBracketValidation" />
+        <item itemvalue="JUnit.StackTest.isEmpty" />
         <item itemvalue="JUnit.StackTest.testPeek" />
         <item itemvalue="JUnit.StackTest" />
         <item itemvalue="JUnit.PseudoQueueTest.testEmptyDeQueue" />
-        <item itemvalue="JUnit.PseudoQueueTest.testEmptyEnQueue" />
-        <item itemvalue="JUnit.PseudoQueueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -352,42 +334,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PseudoQueueTest_testDeQueue - 2019.08.20 at 10h 07m 28s.xml">
-      <configuration name="PseudoQueueTest.testDeQueue" configurationId="JUnit" />
+    <history-entry file="MultiBracketValidationTest_testMultiBracketValidation - 2019.08.22 at 16h 54m 45s.xml">
+      <configuration name="MultiBracketValidationTest.testMultiBracketValidation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PseudoQueueTest_testDeQueue - 2019.08.20 at 10h 08m 12s.xml">
-      <configuration name="PseudoQueueTest.testDeQueue" configurationId="JUnit" />
+    <history-entry file="MultiBracketValidationTest_testMultiBracketValidation - 2019.08.22 at 16h 55m 09s.xml">
+      <configuration name="MultiBracketValidationTest.testMultiBracketValidation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PseudoQueueTest_testEnQueue - 2019.08.20 at 10h 09m 22s.xml">
-      <configuration name="PseudoQueueTest.testEnQueue" configurationId="JUnit" />
+    <history-entry file="MultiBracketValidationTest_testMultiBracketValidation - 2019.08.22 at 16h 56m 55s.xml">
+      <configuration name="MultiBracketValidationTest.testMultiBracketValidation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PseudoQueueTest_testEnQueue - 2019.08.20 at 10h 09m 45s.xml">
-      <configuration name="PseudoQueueTest.testEnQueue" configurationId="JUnit" />
+    <history-entry file="MultiBracketValidationTest_testMultiBracketValidation - 2019.08.22 at 17h 01m 59s.xml">
+      <configuration name="MultiBracketValidationTest.testMultiBracketValidation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PseudoQueueTest - 2019.08.20 at 10h 12m 45s.xml">
-      <configuration name="PseudoQueueTest" configurationId="JUnit" />
+    <history-entry file="MultiBracketValidationTest_testMultiBracketValidation - 2019.08.22 at 19h 16m 53s.xml">
+      <configuration name="MultiBracketValidationTest.testMultiBracketValidation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PseudoQueueTest_testEmptyDeQueue - 2019.08.20 at 10h 14m 21s.xml">
-      <configuration name="PseudoQueueTest.testEmptyDeQueue" configurationId="JUnit" />
+    <history-entry file="MultiBracketValidationTest_testMultiBracketValidation - 2019.08.22 at 19h 17m 16s.xml">
+      <configuration name="MultiBracketValidationTest.testMultiBracketValidation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PseudoQueueTest_testEmptyDeQueue - 2019.08.20 at 10h 15m 10s.xml">
-      <configuration name="PseudoQueueTest.testEmptyDeQueue" configurationId="JUnit" />
+    <history-entry file="MultiBracketValidationTest_testMultiBracketValidation - 2019.08.22 at 19h 17m 38s.xml">
+      <configuration name="MultiBracketValidationTest.testMultiBracketValidation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PseudoQueueTest_testEmptyDeQueue - 2019.08.20 at 10h 15m 23s.xml">
-      <configuration name="PseudoQueueTest.testEmptyDeQueue" configurationId="JUnit" />
+    <history-entry file="MultiBracketValidationTest_testMultiBracketValidation - 2019.08.22 at 19h 18m 21s.xml">
+      <configuration name="MultiBracketValidationTest.testMultiBracketValidation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PseudoQueueTest_testEmptyEnQueue - 2019.08.20 at 10h 15m 56s.xml">
-      <configuration name="PseudoQueueTest.testEmptyEnQueue" configurationId="JUnit" />
+    <history-entry file="MultiBracketValidationTest_testMultiBracketValidation - 2019.08.22 at 19h 18m 45s.xml">
+      <configuration name="MultiBracketValidationTest.testMultiBracketValidation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PseudoQueueTest_testEmptyDeQueue - 2019.08.20 at 10h 16m 37s.xml">
-      <configuration name="PseudoQueueTest.testEmptyDeQueue" configurationId="JUnit" />
+    <history-entry file="MultiBracketValidationTest_testMultiBracketValidation - 2019.08.22 at 19h 18m 57s.xml">
+      <configuration name="MultiBracketValidationTest.testMultiBracketValidation" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="152" y="29" width="1440" height="813" extended-state="0" />
+    <frame x="573" y="0" width="867" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.45028818" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.44956413" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -396,16 +378,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27127004" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39950678" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2540074" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2786683" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.1972873" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.1965812" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32941177" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32941177" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32763532" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32763532" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -545,28 +527,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/MultiBracketValidation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding>
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/PseudoQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="731">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -577,24 +541,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/PseudoQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/AnimalShelterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stacksandqueues/StackTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        <state relative-caret-position="603">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="102">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/Queue.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/MultiBracketValidationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+        <state relative-caret-position="153">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/MultiBracketValidation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
         </state>
       </provider>
     </entry>

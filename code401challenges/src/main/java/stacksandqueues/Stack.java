@@ -3,6 +3,11 @@ package stacksandqueues;
 public class Stack<C> {
     protected Node top;
 
+//  Checks if stack is empty
+    public boolean isEmpty(){
+        return top == null;
+    }
+
 //  Adds new node to top
     public void push(C value){
         Node newNode = new Node (value);
