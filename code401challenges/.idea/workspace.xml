@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b795fd0-17fa-48ed-a21b-45ceb7ec028b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tree/BinarySearchTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -23,7 +23,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tree/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
+            <state relative-caret-position="1343">
               <caret line="79" column="47" lean-forward="true" selection-start-line="79" selection-start-column="47" selection-end-line="79" selection-end-column="47" />
               <folding>
                 <element signature="e#115#116#0" expanded="true" />
@@ -34,19 +34,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tree/TreeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tree/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="576">
+              <caret line="51" column="58" selection-start-line="51" selection-start-column="58" selection-end-line="51" selection-end-column="58" />
               <folding>
                 <element signature="e#150#151#0" expanded="true" />
                 <element signature="e#170#171#0" expanded="true" />
@@ -55,6 +46,24 @@
                 <element signature="e#692#693#0" expanded="true" />
                 <element signature="e#730#731#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tree/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tree/TreeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -105,10 +114,10 @@
         <option value="$PROJECT_DIR$/src/test/java/utilities/AnimalShelterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/tree/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/tree/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/tree/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/test/java/tree/BinarySearchTreeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/tree/Tree.java" />
         <option value="$PROJECT_DIR$/src/test/java/tree/TreeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tree/BinarySearchTree.java" />
       </list>
     </option>
   </component>
@@ -196,7 +205,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566851235914" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566854412362" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -337,24 +346,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinarySearchTreeTest_testAdd - 2019.08.26 at 12h 56m 55s.xml">
-      <configuration name="BinarySearchTreeTest.testAdd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest_testPostOrder - 2019.08.26 at 13h 11m 08s.xml">
-      <configuration name="TreeTest.testPostOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest_testPostOrder - 2019.08.26 at 13h 17m 16s.xml">
-      <configuration name="TreeTest.testPostOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest_testPostOrder - 2019.08.26 at 13h 20m 01s.xml">
-      <configuration name="TreeTest.testPostOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest_testPreOrder - 2019.08.26 at 13h 20m 49s.xml">
-      <configuration name="TreeTest.testPreOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest_testPreOrder - 2019.08.26 at 13h 21m 58s.xml">
-      <configuration name="TreeTest.testPreOrder" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TreeTest_testInOrder - 2019.08.26 at 13h 22m 33s.xml">
       <configuration name="TreeTest.testInOrder" configurationId="JUnit" />
     </history-entry>
@@ -367,12 +358,30 @@
     <history-entry file="TreeTest_emptyTree - 2019.08.26 at 13h 24m 35s.xml">
       <configuration name="TreeTest.emptyTree" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TreeTest_singleTree - 2019.08.26 at 13h 25m 29s.xml">
+      <configuration name="TreeTest.singleTree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_singleTree - 2019.08.26 at 13h 26m 31s.xml">
+      <configuration name="TreeTest.singleTree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_singleTree - 2019.08.26 at 13h 26m 47s.xml">
+      <configuration name="TreeTest.singleTree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_singleTree - 2019.08.26 at 13h 27m 09s.xml">
+      <configuration name="TreeTest.singleTree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_singleTree - 2019.08.26 at 13h 27m 18s.xml">
+      <configuration name="TreeTest.singleTree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_twoChildTree - 2019.08.26 at 13h 29m 15s.xml">
+      <configuration name="TreeTest.twoChildTree" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="512" y="0" width="928" height="900" extended-state="6" />
+    <frame x="691" y="0" width="749" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.45815602" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.45708156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -381,7 +390,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292232" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2675709" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2675709" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39950678" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -612,23 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tree/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tree/BinarySearchTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -636,24 +628,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tree/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tree/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
+        <state relative-caret-position="1343">
           <caret line="79" column="47" lean-forward="true" selection-start-line="79" selection-start-column="47" selection-end-line="79" selection-end-column="47" />
           <folding>
             <element signature="e#115#116#0" expanded="true" />
@@ -662,10 +639,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tree/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tree/TreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        <state relative-caret-position="629">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tree/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="51" column="58" selection-start-line="51" selection-start-column="58" selection-end-line="51" selection-end-column="58" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

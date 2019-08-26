@@ -15,7 +15,7 @@ public class BinarySearchTree extends Tree<Integer> {
     }
 
 //  addHelper function
-    public Node<Integer> addHelper (Node<Integer> currentNode, int value){
+    public Node<Integer> addHelper(Node<Integer> currentNode, int value){
 
         if(currentNode == null){
            return new Node(value);
@@ -47,11 +47,9 @@ public class BinarySearchTree extends Tree<Integer> {
 
         if(value < currentNode.value){
             containsHelper(currentNode.leftChild, value);
-            return true;
         }
         if(value > currentNode.value){
             containsHelper(currentNode.rightChild, value);
-            return true;
         }
         return false;
     }
