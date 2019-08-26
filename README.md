@@ -3,4 +3,5 @@
 [Code 301 Challenges](./code-challenges)  
 [Code 401 Challenges](./code401challenges)  
 [Linked List Implementation](./code401challenges/src/main/java/linked_list)  
-[Stacks & Queues Implementation](./code401challenges/src/main/java/stacksandqueues)
+[Stacks & Queues Implementation](./code401challenges/src/main/java/stacksandqueues)  
+[Trees & Binary Search Tree Implementation](./code401challenges/src/main/java/tree)
