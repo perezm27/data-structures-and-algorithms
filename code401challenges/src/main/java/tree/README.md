@@ -22,6 +22,6 @@ https://www.baeldung.com/java-binary-tree
 
 ## Collaborative Efforts
 Jack Kinne  
-Nick Paro
-Matt Stuhring
-Renee Messick
+Nick Paro  
+Matt Stuhring  
+Renee Messick  
