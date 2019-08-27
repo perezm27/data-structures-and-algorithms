@@ -23,17 +23,11 @@ public class Tree <T> {
 
 //  Preorder Root, Left, Right
     protected void preOrderHelper(Node currentNode, ArrayList values){
-
-        values.add(currentNode.getValue());
-
-        if(currentNode.leftChild != null){
+        if(currentNode != null){
+            values.add(currentNode.getValue());
             preOrderHelper(currentNode.leftChild, values);
-        }
-
-        if(currentNode.rightChild != null){
             preOrderHelper(currentNode.rightChild, values);
         }
-
     }
 
 //  Adds values in inOrder to List
@@ -49,16 +43,11 @@ public class Tree <T> {
 
 //  Inorder Left, Root, Right
     protected void inOrderHelper(Node currentNode, ArrayList values){
-        if (currentNode.leftChild != null){
+        if (currentNode != null) {
             inOrderHelper(currentNode.leftChild, values);
-        }
-
-         values.add(currentNode.getValue());
-
-        if (currentNode.rightChild != null){
+            values.add(currentNode.getValue());
             inOrderHelper(currentNode.rightChild, values);
         }
-
     }
 
 //  Adds values in postOrder to List
