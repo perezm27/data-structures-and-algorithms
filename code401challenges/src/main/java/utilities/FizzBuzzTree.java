@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class FizzBuzzTree <T extends Comparable<T>> extends Tree {
 
 
-//  Recursively adds to BinarySearch Tree
+//  Recursively adds to Tree
     public void add(T value){
         this.root = addHelper(this.root,value);
     }
