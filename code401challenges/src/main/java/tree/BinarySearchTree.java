@@ -1,6 +1,6 @@
 package tree;
 
-public class BinarySearchTree extends Tree<Integer> {
+public class BinarySearchTree <T extends Comparable<T>> extends Tree<Integer> {
 
 //  BinarySearchTree Constructor
     public BinarySearchTree(){
@@ -10,33 +10,33 @@ public class BinarySearchTree extends Tree<Integer> {
 //  Cited source for implementation: https://www.baeldung.com/java-binary-tree
 
 //  Recursively adds to BinarySearch Tree
-    public void add(int value){
+    public void add(T value){
         this.root = addHelper(this.root,value);
     }
 
 //  addHelper function
-    public Node<Integer> addHelper(Node<Integer> currentNode, int value){
+    public Node<T> addHelper(Node<T> currentNode, T value){
 
         if(currentNode == null){
-           return new Node(value);
+           return new Node<>(value);
         }
 
-        if(value < currentNode.value){
+        if(value.compareTo(currentNode.value) < 0){
             currentNode.leftChild = addHelper(currentNode.leftChild, value);
         }
-        else if (value > currentNode.value){
+        else if (value.compareTo(currentNode.value) > 0){
            currentNode.rightChild = addHelper(currentNode.rightChild, value);
         }
         return currentNode;
     }
 
 //  Checks to see if a value exists in our BinarySearchTree
-    public boolean contains(int value){
+    public boolean contains(T value){
         return containsHelper(this.root, value);
     }
 
 //  Contains helper function
-    public boolean containsHelper(Node<Integer> currentNode, int value){
+    public boolean containsHelper(Node<T> currentNode, T value){
         if(currentNode == null){
             return false;
         }
@@ -46,7 +46,7 @@ public class BinarySearchTree extends Tree<Integer> {
         }
 
 //  https://www.baeldung.com/java-ternary-operator
-        return value < currentNode.value ?
+        return value.compareTo(currentNode.value) < 0 ?
                 containsHelper(currentNode.leftChild, value) :
                 containsHelper(currentNode.rightChild, value);
     }

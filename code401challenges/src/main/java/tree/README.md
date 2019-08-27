@@ -19,7 +19,8 @@ The Big O of a Binary Search Tree’s insertion and search operations is O(h), w
 
 ## Cited Sources
 [Binary Tree](https://www.baeldung.com/java-binary-tree)  
-[Ternary Operator](https://www.baeldung.com/java-ternary-operator)
+[Ternary Operator](https://www.baeldung.com/java-ternary-operator)  
+[CompareTo() Method](https://www.geeksforgeeks.org/java-integer-compareto-method/)
 
 ## Collaborative Efforts
 Jack Kinne  

@@ -165,3 +165,22 @@ tbd..
 ## Collaborative Efforts
 Jack Kinne  
 Nick Paro
+
+
+## Code Challenge: Class 16
+FizzBuzz
+
+## Challenge
+Conduct “FizzBuzz” on a tree while traversing through it. Change the values of each of 
+the nodes dependent on the current node’s value
+
+## Approach & Efficiency
+- O(n) Time Complexity
+- O(n) Space
+
+## Solution
+![Image description](assets/FizzBuzzBST.jpg)
+
+## Collaborative Efforts
+[Bomi Bear](https://github.com/bomibear)
+
