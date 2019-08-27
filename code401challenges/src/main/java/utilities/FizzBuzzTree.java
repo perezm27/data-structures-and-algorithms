@@ -1,47 +1,61 @@
 package utilities;
 
-import tree.BinarySearchTree;
+import tree.Tree;
+import tree.Node;
 
-public class FizzBuzzTree extends BinarySearchTree {
+import java.util.ArrayList;
 
-    public void fizzBuzzTree(BinarySearchTree curr, ArrayList<Object> val ){
-    if(curr != null){
-        fizzBuzzTree2(curr.getLeftChild(), val);
-    }
-    if (curr.getValue() % 3 == 0 && curr.getValue() % 5 == 0){
-        curr.getValue("fizzBuzz");
-    }else if(curr.getValue() % 3 == 0){
-        curr.getValue("fizz");
-    } else {
-        curr.getValue("buzz");
+public class FizzBuzzTree <T extends Comparable<T>> extends Tree {
+
+
+//  Recursively adds to BinarySearch Tree
+    public void add(T value){
+        this.root = addHelper(this.root,value);
     }
 
+//  addHelper function
+    public Node<T> addHelper(Node<T> currentNode, T value){
+
+        if(currentNode == null){
+            return new Node<>(value);
+        }
+
+        if(value.compareTo(currentNode.value) < 0){
+            currentNode.leftChild = addHelper(currentNode.leftChild, value);
+        }
+        else if (value.compareTo(currentNode.value) > 0){
+            currentNode.rightChild = addHelper(currentNode.rightChild, value);
+        }
+        return currentNode;
     }
 
-//    public ArrayList<Object> inOrderFizzBuzz(){
-//        ArrayList<Object> values = new ArrayList<>();
-//        if (this.root == null){
-//            return values;
-//        }
-//        fizzBuzzTree2(this.root, values);
-//
-//        return values;
-//    }
-//
-//    private void fizzBuzzTree(Node root, ArrayList<Object> values) {
-//    }
+    public ArrayList<Object> inOrderFizzBuzz(){
+        ArrayList<Object> values = new ArrayList<>();
+        if (this.root == null){
+            return values;
+        }
+        fizzBuzzTree(this.root, values);
 
-//    public void fizzBuzzTree(Node curr, ArrayList<Object> val ){
-//        if(curr != null){
-//            fizzBuzzTree2(curr.getLeftChild(), val);
-//        }
-//        if (curr.getValue() % 3 == 0 && curr.getValue() % 5 == 0){
-//            curr.getValue("fizzBuzz");
-//        }else if(curr.getValue() % 3 == 0){
-//            curr.getValue("fizz");
-//        } else {
-//            curr.getValue("buzz");
-//        }
-//
-//    }
+        return values;
+    }
+
+
+    public void fizzBuzzTree(Node curr, ArrayList<Object> values ){
+        if(curr.leftChild != null){
+            fizzBuzzTree(curr.getLeftChild(), values);
+        }
+        if ((int)curr.getValue() % 3 == 0 && (int)curr.getValue() % 5 == 0){
+            values.add(curr.setValue("fizzbuzz"));
+        }else if((int)curr.getValue() % 3 == 0){
+            values.add(curr.setValue("fizz"));
+        } else if ((int)curr.getValue() % 5 == 0){
+            values.add(curr.setValue("buzz"));
+        } else {
+            values.add(curr.getValue());
+        }
+        if(curr.getRightChild() != null){
+            fizzBuzzTree(curr.getRightChild(), values);
+        }
+
+    }
 }

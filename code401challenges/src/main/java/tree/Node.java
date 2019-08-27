@@ -1,9 +1,9 @@
 package tree;
 
 public class Node <T> {
-    protected T value;
-    protected Node leftChild;
-    protected Node rightChild;
+    public T value;
+    public Node leftChild;
+    public Node rightChild;
 
     public Node(T value){
         this.value = value;
@@ -25,6 +25,18 @@ public class Node <T> {
 
     public Node getRightChild() {
         return rightChild;
+    }
+
+    public T setValue(T value) {
+        return this.value = value;
+    }
+
+    public void setLeftChild(Node leftChild) {
+        this.leftChild = leftChild;
+    }
+
+    public void setRightChild(Node rightChild) {
+        this.rightChild = rightChild;
     }
 
 }
