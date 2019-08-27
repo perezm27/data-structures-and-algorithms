@@ -18,7 +18,8 @@ The Big O space of a Binary Search Tree (BST) search would be O(1).
 The Big O of a Binary Search Tree’s insertion and search operations is O(h), where h is the height of the tree. 
 
 ## Cited Sources
-https://www.baeldung.com/java-binary-tree
+[Binary Tree](https://www.baeldung.com/java-binary-tree)  
+[Ternary Operator](https://www.baeldung.com/java-ternary-operator)
 
 ## Collaborative Efforts
 Jack Kinne  
