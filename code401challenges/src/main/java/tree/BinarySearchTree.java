@@ -9,7 +9,7 @@ public class BinarySearchTree extends Tree<Integer> {
 
 //  Cited source for implementation: https://www.baeldung.com/java-binary-tree
 
-//  Adds to BinarySearch Tree
+//  Recursively adds to BinarySearch Tree
     public void add(int value){
         this.root = addHelper(this.root,value);
     }
@@ -41,16 +41,13 @@ public class BinarySearchTree extends Tree<Integer> {
             return false;
         }
 
-        if(value == currentNode.value){
+        if (value == currentNode.value){
             return true;
         }
 
-        if(value < currentNode.value){
-            containsHelper(currentNode.leftChild, value);
-        }
-        if(value > currentNode.value){
-            containsHelper(currentNode.rightChild, value);
-        }
-        return false;
+//  https://www.baeldung.com/java-ternary-operator
+        return value < currentNode.value ?
+                containsHelper(currentNode.leftChild, value) :
+                containsHelper(currentNode.rightChild, value);
     }
 }
