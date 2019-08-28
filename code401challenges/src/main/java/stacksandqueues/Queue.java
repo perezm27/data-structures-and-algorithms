@@ -10,8 +10,8 @@ public class Queue<C> {
     }
 
 //  Adds value to the end of the Queue
-    public void enqueue(int value){
-        Node newNode = new Node (value);
+    public void enqueue(C value){
+        Node newNode = new Node ((C)value);
         if (this.front == null){
 //  If Queue is empty the front and rear node are the same node.
             this.front = newNode;

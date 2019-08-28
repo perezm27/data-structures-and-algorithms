@@ -2,7 +2,7 @@ package tree;
 
 import java.util.ArrayList;
 
-public class Tree <T> {
+public class Tree <T>{
     protected Node root;
 
 //  Tree Constructor
