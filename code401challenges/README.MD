@@ -184,3 +184,26 @@ the nodes dependent on the current node’s value
 ## Collaborative Efforts
 [Bomi Bear](https://github.com/bomibear)
 
+
+## Code Challenge : Class 17
+Breadth-first Traversal
+
+## Challenge 
+Write a breadth first traversal method which takes a Binary Tree as its unique input. 
+Without utilizing any of the built-in methods available to your language, traverse the input tree using a Breadth-first approach; 
+print every visited node’s value.
+
+## Approach & Efficiency
+- O(n) Time Complexity
+- O(n) Space
+
+## Solution
+![Image description](assets/BFT.jpg)
+
+## Collaborative Efforts
+Jack Kinne  
+Matt Stuhring
+
+
+
+
