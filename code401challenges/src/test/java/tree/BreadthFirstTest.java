@@ -11,7 +11,6 @@ public class BreadthFirstTest {
     @Test
     public void testBFTraversal() {
         ArrayList<Integer> output = new ArrayList<>();
-        Tree t = new Tree();
         BreadthFirst test = new BreadthFirst();
         BinarySearchTree bst = new BinarySearchTree();
 
@@ -22,27 +21,27 @@ public class BreadthFirstTest {
         bst.add(5);
 
         output.add(3);
-        output.add(7);
-        output.add(10);
         output.add(1);
+        output.add(7);
         output.add(5);
+        output.add(10);
 
 
         ArrayList<Integer> actual = test.BFTraversal(bst);
 
-        System.out.println(actual.toString());
+        assertEquals(output, actual);
+    }
+
+    @Test
+    public void testBFTraversalEmpty() {
+        ArrayList<Integer> output = new ArrayList<>();
+        BreadthFirst test = new BreadthFirst();
+        BinarySearchTree bst = new BinarySearchTree();
+
+        ArrayList<Integer> actual = test.BFTraversal(bst);
 
         assertEquals(output, actual);
-
-
-//        t.root.setValue(new Node<>(3));
-//        t.root.setLeftChild(new Node(2));
-//        t.root.setRightChild(new Node(5));
-//        t.root.leftChild.setLeftChild(new Node(1));
-//
-//
-//        System.out.println(t.toString());
-//        assertEquals("test", t.root.getValue() );
-
     }
+
+
 }

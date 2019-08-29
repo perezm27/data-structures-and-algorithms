@@ -70,4 +70,22 @@ public class QueueTest {
 
         newQueue.peek();
     }
+
+    @Test
+    public void testIsEmpty() {
+        Queue newQueue = new Queue();
+
+        assertTrue(newQueue.isEmpty());
+
+    }
+
+    @Test
+    public void testNotEmpty() {
+        Queue newQueue = new Queue();
+
+        newQueue.enqueue(3);
+
+        assertFalse(newQueue.isEmpty());
+
+    }
 }
