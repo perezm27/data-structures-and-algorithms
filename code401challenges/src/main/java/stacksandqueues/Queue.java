@@ -44,6 +44,11 @@ public class Queue<C> {
         return (C) this.front.value;
     }
 
+//  Checks to see if the queue is empty
+    public boolean isEmpty(){
+        return front == null;
+    }
+
 
 //  ToString Method
     public String toString(){

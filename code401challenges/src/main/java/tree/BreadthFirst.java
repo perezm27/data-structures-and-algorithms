@@ -9,7 +9,7 @@ public class BreadthFirst<T> extends Tree {
 
     public ArrayList<T> BFTraversal(Tree<Object> tree){
         ArrayList<T> output = new ArrayList<>();
-        Queue<Node> queue = new Queue();
+        Queue<Node> queue = new Queue<>();
 
         if(tree.root == null){
             return output;
@@ -17,18 +17,18 @@ public class BreadthFirst<T> extends Tree {
             queue.enqueue(tree.root);
         }
 
-        while(queue.peek() != null){
+        while(!queue.isEmpty()){
+
             if(queue.peek().leftChild != null){
-                queue.enqueue(tree.root.leftChild);
-            }
+                queue.enqueue(queue.peek().leftChild);
 
             if(queue.peek().rightChild != null){
-                queue.enqueue(tree.root.rightChild);
+                queue.enqueue(queue.peek().rightChild);
+                }
             }
 
             output.add((T) queue.dequeue().getValue());
         }
-        System.out.println(output);
         return output;
     }
 }
