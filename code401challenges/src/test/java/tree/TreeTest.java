@@ -111,4 +111,18 @@ public class TreeTest {
         assertEquals(post, actual);
     }
 
+    @Test
+    public void testMax(){
+        BinarySearchTree bst = new BinarySearchTree();
+
+        bst.add(3);
+        bst.add(5);
+        bst.add(7);
+        bst.add(10);
+        bst.add(9);
+
+        assertEquals(10, bst.findMax());
+
+    }
+
 }
