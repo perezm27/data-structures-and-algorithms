@@ -69,4 +69,22 @@ public class Tree <T>{
             values.add(currentNode.getValue());
         }
     }
+
+//  Finds the max value in Tree
+    public ArrayList<T> findMax(){
+        ArrayList<T> output = new ArrayList<>();
+        if(this.root == null){
+            return output;
+        }
+        findMaxValueHelper(this.root, output);
+        return output;
+    }
+
+    protected void findMaxValueHelper(Node<T> currentNode, ArrayList output){
+       if(currentNode != null){
+           findMaxValueHelper(currentNode.leftChild, output);
+           findMaxValueHelper(currentNode.rightChild, output);
+           output.add(currentNode.getLeftChild());
+        }
+    }
 }
