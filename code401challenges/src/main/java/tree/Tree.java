@@ -80,11 +80,22 @@ public class Tree <T>{
         return output;
     }
 
-    protected void findMaxValueHelper(Node<T> currentNode, ArrayList output){
+    protected void findMaxValueHelper(Node<Integer> currentNode, ArrayList output){
+        int max = 0;
        if(currentNode != null){
+           if(currentNode.value > (int) currentNode.leftChild.value){
+               max =  currentNode.getValue();
+           } else{
+               max = (int) currentNode.leftChild.value;
+           }
+           if(max < (int) currentNode.rightChild.value){
+               max = (int) currentNode.rightChild.value;
+           } else {
+               output.add(max);
+           }
+
            findMaxValueHelper(currentNode.leftChild, output);
            findMaxValueHelper(currentNode.rightChild, output);
-           output.add(currentNode.getLeftChild());
         }
     }
 }
