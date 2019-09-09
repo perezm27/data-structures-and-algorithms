@@ -5,4 +5,6 @@
 [Linked List Implementation](./code401challenges/src/main/java/linked_list)  
 [Stacks & Queues Implementation](./code401challenges/src/main/java/stacksandqueues)  
 [Trees & Binary Search Tree Implementation](./code401challenges/src/main/java/tree)  
-[Insertion Sort Implementation](./code401challenges/src/main/java/InsertionSort.java)
+<br>
+[Insertion Sort Implementation](./code401challenges/src/main/java/InsertionSort.java)  
+* [Insertion Sort Blog](./code401challenges/BLOG.md)
