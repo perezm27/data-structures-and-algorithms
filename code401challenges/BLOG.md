@@ -46,9 +46,6 @@ two halves.
 * Time/Space Complexity of merge sort
 
 ## Information Flow
-* Benefit : Best for smaller inputs
-* Input : Unsorted array of integers -> [1,7,5,4]
-* Output : Sorted Array -> [1,4,5,7]
 * Time : O(n log n)
 * Space : O(n)
 
