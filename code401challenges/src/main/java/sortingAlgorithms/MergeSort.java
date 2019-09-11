@@ -4,7 +4,7 @@ public class MergeSort {
     public int[] mergeSort(int[] arr) {
         int n = arr.length;
         int mid;
-        int[] left;
+        int[] left = new int [n/2];
         int[] right;
 
         if (n < 1) {
@@ -13,12 +13,12 @@ public class MergeSort {
 
         if (n > 1) {
             mid = n / 2;
-            left = arr[0..mid];
-            right = arr[mid..n];
+//            left = arr[0..mid];
+//            right = arr[mid..n];
 
             mergeSort(left);
-            mergeSort(right);
-            merge(left, right, arr);
+//            mergeSort(right);
+//            merge(left, right, arr);
 
         }
         return arr;
