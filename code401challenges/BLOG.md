@@ -82,7 +82,7 @@ It picks an element as pivot and partitions the given array around the picked pi
 
 ## Pseudocode
 ![Pseudo](assets/QuickSort.png)
-![Pseudo](assets/QuickSort2.png)
+![Pseudo](assets/Quicksort2.png)
 
 
 ## Readings & References
