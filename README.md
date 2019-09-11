@@ -7,5 +7,6 @@
 [Trees & Binary Search Tree Implementation](./code401challenges/src/main/java/tree)  
 <br>
 [Insertion Sort Implementation](./code401challenges/src/main/java/InsertionSort.java)  
-[Merge Sort Implementation](./code401challenges/src/main/java/sortingAlgorithms/MergeSort.java)
+[Merge Sort Implementation](./code401challenges/src/main/java/sortingAlgorithms/MergeSort.java)  
+[Quick Sort Implementation](./code401challenges/src/main/java/sortingAlgorithms/QuickSort.java)
 * [Sorting Algorithms Blog](./code401challenges/BLOG.md)
