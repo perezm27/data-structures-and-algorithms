@@ -64,6 +64,34 @@ Provided by CodeFellows
 [Merge Sort Resource 3](https://howtodoinjava.com/algorithm/merge-sort-java-example/)  
 [Video Walkthrough](https://www.youtube.com/watch?v=4VqmGXwpLqc)
 
+## Blog Notes 3: Quick Sort
+Like Merge Sort, QuickSort is a Divide and Conquer algorithm. 
+It picks an element as pivot and partitions the given array around the picked pivot.
+
+## Learning Objective
+* Learn the quick sort algorithm 
+* Implement the quick sort algorithm
+* Time/Space Complexity of quick sort
+
+## Information Flow
+* Time : O(n^2)
+* Space : O(log n)
+
+## Diagram
+![Quick Sort](https://www.geeksforgeeks.org/wp-content/uploads/gq/2014/01/QuickSort2.png)
+
+## Pseudocode
+![Pseudo](assets/QuickSort.png)
+![Pseudo](assets/QuickSort2.png)
+
+
+## Readings & References
+[Quick Sort Resource 1](https://en.wikipedia.org/wiki/Quicksort)  
+[Quick Sort Resource 2](https://www.geeksforgeeks.org/quick-sort/)  
+[Video Resource](https://www.youtube.com/watch?v=SLauY6PpjW4)  
+
+
+
 
 
 
