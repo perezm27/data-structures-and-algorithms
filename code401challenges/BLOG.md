@@ -50,8 +50,13 @@ two halves.
 * Space : O(n)
 
 ## Diagram 
+![Merge Sort](https://cdn1.howtodoinjava.com/wp-content/uploads/2015/10/Merge_sort_algorithm.png)
 
 ## Pseudocode
+Provided by CodeFellows
+
+![pseudo](assets/mergePseudo.png)
+![pseudo](assets/mergePseudo2.png)
 
 ## Readings & References 
 [Merge Sort Resource 1](https://www.tutorialspoint.com/data_structures_algorithms/merge_sort_algorithm.htm)  
