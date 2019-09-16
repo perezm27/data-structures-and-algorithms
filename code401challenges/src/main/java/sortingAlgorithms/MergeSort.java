@@ -17,7 +17,7 @@ public class MergeSort {
 //            left = arr[0..mid];
 //            right = arr[mid..lengthOfArr];
 
-            mergeSort(left);
+//            mergeSort(left);
 //            mergeSort(right);
 //            merge(left, right, arr);
 
