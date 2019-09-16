@@ -60,7 +60,7 @@ Provided by CodeFellows
 
 ## Readings & References 
 [Merge Sort Resource 1](https://www.tutorialspoint.com/data_structures_algorithms/merge_sort_algorithm.htm)  
-[Merge Sort Resource 2](https://www.geeksforgeeks.org/merge-sort/)  
+[Merge Sort Resource 2 (GeeksForGeeks)](https://www.geeksforgeeks.org/merge-sort/)  
 [Merge Sort Resource 3](https://howtodoinjava.com/algorithm/merge-sort-java-example/)  
 [Video Walkthrough](https://www.youtube.com/watch?v=4VqmGXwpLqc)
 
@@ -78,16 +78,19 @@ It picks an element as pivot and partitions the given array around the picked pi
 * Space : O(log n)
 
 ## Diagram
+Provided by GeeksForGeeks
 ![Quick Sort](https://www.geeksforgeeks.org/wp-content/uploads/gq/2014/01/QuickSort2.png)
 
 ## Pseudocode
+Provided by CodeFellows
 ![Pseudo](assets/QuickSort.png)
 ![Pseudo](assets/Quicksort2.png)
 
 
 ## Readings & References
-[Quick Sort Resource 1](https://en.wikipedia.org/wiki/Quicksort)  
-[Quick Sort Resource 2](https://www.geeksforgeeks.org/quick-sort/)  
+[Quick Sort Resource 1 (Wikipedia)](https://en.wikipedia.org/wiki/Quicksort)  
+[Quick Sort Resource 2 (GeeksForGeeks)](https://www.geeksforgeeks.org/quick-sort/)  
+[Quick Sort Resource 3 (Baeldung)](https://www.baeldung.com/java-quicksort)  
 [Video Resource](https://www.youtube.com/watch?v=SLauY6PpjW4)  
 
 
