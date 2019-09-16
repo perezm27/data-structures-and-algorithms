@@ -1,20 +1,21 @@
 package sortingAlgorithms;
 
 public class MergeSort {
-    public int[] mergeSort(int[] arr) {
-        int n = arr.length;
-        int mid;
-        int[] left = new int [n/2];
-        int[] right;
+//  Souce: https://www.baeldung.com/java-merge-sort
+    public int[] mergeSort(int[] arr, int lengthOfArr) {
+        lengthOfArr = arr.length;
+        int mid = lengthOfArr / 2;
+        int[] left = new int [mid];
+        int[] right = new int[lengthOfArr - mid];
 
-        if (n < 1) {
+        if (lengthOfArr < 1) {
             return arr;
         }
 
-        if (n > 1) {
-            mid = n / 2;
+        if (lengthOfArr > 1) {
+            mid = lengthOfArr / 2;
 //            left = arr[0..mid];
-//            right = arr[mid..n];
+//            right = arr[mid..lengthOfArr];
 
             mergeSort(left);
 //            mergeSort(right);
