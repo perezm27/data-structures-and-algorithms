@@ -11,5 +11,6 @@
 [Quick Sort Implementation](./code401challenges/src/main/java/sortingAlgorithms/QuickSort.java)
 * [Sorting Algorithms Blog](./code401challenges/BLOG.md)
 <br>
+
 [HashTable Implementation](./code401challenges/src/main/java/HashtableExercises/RepeatedWord.java)  
 * [HashTable README](./code401challenges/src/main/java/HashtableExercises/README.md)
