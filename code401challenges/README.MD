@@ -227,8 +227,8 @@ Matt Stuhring
 Find the first repeated word in a book
 
 ## Challenge
--[x] Write a function that accepts a lengthy string parameter.
--[x] Without utilizing any of the built-in library methods available to your language, return the first word to occur more than once in that provided string.
+- [x] Write a function that accepts a lengthy string parameter.
+- [x] Without utilizing any of the built-in library methods available to your language, return the first word to occur more than once in that provided string.
 
 
 
