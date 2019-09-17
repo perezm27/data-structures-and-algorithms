@@ -13,7 +13,7 @@
 <br>
 
 [HashTable Implementation](./code401challenges/src/main/java/HashtableExercises/RepeatedWord.java)  
+* [HashTable README](./code401challenges/src/main/java/HashtableExercises/README.md)  
 * [RepeatedWord Implementation](./code401challenges/src/main/java/HashtableExercises/RepeatedWord.java)  
 * [Tree-Intersection Implementation](./code401challenges/src/main/java/TreeIntersection/TreeIntersection.java)  
-* [HashTable README](./code401challenges/src/main/java/HashtableExercises/README.md)  
 * [Tree-Intersection README](./code401challenges/src/main/java/TreeIntersection/README.md)
