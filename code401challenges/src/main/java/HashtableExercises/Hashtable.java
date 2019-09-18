@@ -1,7 +1,7 @@
 package HashtableExercises;
 
 
-public class Hashtable {
+public class Hashtable<T> {
     public HashNode[] map;
 
     public Hashtable(int size){
