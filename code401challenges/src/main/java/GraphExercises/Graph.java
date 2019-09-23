@@ -1,8 +1,9 @@
 package GraphExercises;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
+import stacksandqueues.Queue;
+import tree.Node;
+
+import java.util.*;
 
 public class Graph<T>{
 
@@ -72,6 +73,29 @@ public class Graph<T>{
         return size;
     }
 
+//  BFT implementation
+    public ArrayList<T> BFTraversal(Graph<T> graph, T root){
+        ArrayList<T> visited = new ArrayList<>();
+        Queue<T> queue = new Queue<>();
 
+        if(root == null){
+            return visited;
+        } else {
+            queue.enqueue(root);
+            visited.add(root);
+        }
+
+        while(!queue.isEmpty()){
+            for(Vertex<T> vertex : graph.getAdjacencyList().keySet()){
+
+                if(!visited.contains(vertex)){
+                    visited.add((T) vertex);
+                    queue.enqueue((T) vertex);
+                }
+                break;
+            }
+        }
+        return visited;
+    }
 
 }

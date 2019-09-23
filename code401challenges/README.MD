@@ -231,5 +231,23 @@ Find the first repeated word in a book
 - [x] Without utilizing any of the built-in library methods available to your language, return the first word to occur more than once in that provided string.
 
 
+## Code Challenge: Class 36
+Implement a breadth-first traversal on a graph.
+
+## Challenge 
+Extend your graph object with a breadth-first traversal method that accepts a starting node. 
+Without utilizing any of the built-in methods available to your language, return a collection of nodes in the order they were visited. Display the collection.
+
+
+## Approach & Efficiency
+O(n^2)  
+O(n)
+
+## Solution
+Provided by CodeFellows
+![](/Users/permelfi/cf/data-structures-and-algorithms/code401challenges/assets/BFTGraph.png)
+
+## Implementation Guide
+[Baeldung Tutorial](https://www.baeldung.com/java-graphs)
 
 
