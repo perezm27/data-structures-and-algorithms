@@ -29,7 +29,7 @@ public class Graph<T>{
 //    AddNode() Adds a new node to the graph Takes in the value of that node & Returns the added node.
     public Vertex<T> addNode(T vertex){
         Vertex<T> node = new Vertex<>(vertex);
-        adjacencyList.putIfAbsent(node, new ArrayList<>());
+        adjacencyList.put(node, new ArrayList<>());
         size++;
 
         return node;
@@ -86,16 +86,14 @@ public class Graph<T>{
         }
 
         while(!queue.isEmpty()){
-            for(Vertex<T> vertex : this.getAdjacencyList().keySet()){
+            T current = queue.dequeue();
+            List<Edge<T>> neighbors = adjacencyList.get((current));
 
-                if(!visited.contains(vertex)){
-                    queue.enqueue((T) vertex);
-                    visited.add((T)vertex);
-                } else{
-                    queue.dequeue();
-                }
-                if(queue.isEmpty()){
-                    break;
+            for(Edge<T> edge : neighbors){
+
+                if(!visited.contains(edge.getVertex())){
+                   queue.enqueue((T) edge.getVertex());
+                    visited.add((T)edge.getVertex());
                 }
 
             }

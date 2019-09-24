@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b795fd0-17fa-48ed-a21b-45ceb7ec028b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/BFTGraph.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GraphExercises/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GraphExercises/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GraphExercises/GraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GraphExercises/GraphTest.java" afterDir="false" />
     </list>
@@ -28,11 +26,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GraphExercises/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="103" selection-end-column="5" />
+            <state relative-caret-position="211">
+              <caret line="88" column="37" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/GraphExercises/GraphTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="115" selection-start-line="115" selection-end-line="115" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,13 +51,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/GraphExercises/GraphTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GraphExercises/GetEdge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1921">
-              <caret line="115" column="36" selection-start-line="115" selection-start-column="36" selection-end-line="115" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -69,8 +76,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -129,6 +136,7 @@
         <option value="$PROJECT_DIR$/src/main/java/GraphExercises/Vertex.java" />
         <option value="$PROJECT_DIR$/src/main/java/GraphExercises/Edge.java" />
         <option value="$PROJECT_DIR$/README.MD" />
+        <option value="$PROJECT_DIR$/src/main/java/GraphExercises/GetEdge.java" />
         <option value="$PROJECT_DIR$/src/main/java/GraphExercises/Graph.java" />
         <option value="$PROJECT_DIR$/src/test/java/GraphExercises/GraphTest.java" />
       </list>
@@ -146,6 +154,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,47 +195,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="LeftJoin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code401challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code401challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="GraphExercises" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569353550084" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569368751117" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -367,34 +346,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GraphTest_testBFTraversal - 2019.09.23 at 19h 54m 12s.xml">
+    <history-entry file="GraphTest_testBFTraversal - 2019.09.24 at 16h 15m 53s.xml">
       <configuration name="GraphTest.testBFTraversal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphTest_testBFTraversal - 2019.09.23 at 19h 56m 26s.xml">
+    <history-entry file="GraphTest_testBFTraversal - 2019.09.24 at 16h 18m 53s.xml">
       <configuration name="GraphTest.testBFTraversal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphTest_testBFTraversal - 2019.09.23 at 19h 56m 47s.xml">
+    <history-entry file="GraphTest_testBFTraversal - 2019.09.24 at 16h 28m 14s.xml">
       <configuration name="GraphTest.testBFTraversal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphTest_testBFTraversal - 2019.09.23 at 19h 58m 02s.xml">
+    <history-entry file="GraphTest_testBFTraversal - 2019.09.24 at 16h 28m 17s.xml">
       <configuration name="GraphTest.testBFTraversal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphTest_testBFTraversal - 2019.09.23 at 19h 58m 23s.xml">
+    <history-entry file="GraphTest_testBFTraversal - 2019.09.24 at 16h 39m 10s.xml">
       <configuration name="GraphTest.testBFTraversal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphTest_testBFTraversal - 2019.09.23 at 19h 58m 45s.xml">
+    <history-entry file="GraphTest_testBFTraversal - 2019.09.24 at 16h 40m 25s.xml">
       <configuration name="GraphTest.testBFTraversal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphTest_testBFTraversal - 2019.09.23 at 19h 59m 14s.xml">
+    <history-entry file="GraphTest_testBFTraversal - 2019.09.24 at 16h 41m 29s.xml">
       <configuration name="GraphTest.testBFTraversal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphTest_testBFTraversal - 2019.09.24 at 09h 25m 00s.xml">
+    <history-entry file="GraphTest_testBFTraversal - 2019.09.24 at 16h 41m 31s.xml">
       <configuration name="GraphTest.testBFTraversal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphTest_testBFTraversal - 2019.09.24 at 09h 25m 18s.xml">
+    <history-entry file="GraphTest_testBFTraversal - 2019.09.24 at 16h 42m 12s.xml">
       <configuration name="GraphTest.testBFTraversal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphTest_testBFTraversal - 2019.09.24 at 09h 25m 31s.xml">
+    <history-entry file="GraphTest_testBFTraversal - 2019.09.24 at 16h 42m 21s.xml">
       <configuration name="GraphTest.testBFTraversal" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -408,7 +387,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="191" y="28" width="769" height="815" extended-state="1" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2442363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24974306" />
@@ -419,8 +398,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292232" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3721591" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.48335388" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38964242" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3378545" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292232" />
@@ -445,22 +424,15 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/GraphExercises/Graph.java</url>
-          <line>80</line>
+          <url>file://$PROJECT_DIR$/src/test/java/GraphExercises/GraphTest.java</url>
+          <line>108</line>
           <properties />
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" selection-start-line="47" selection-end-line="63" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stacksandqueues/StackTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1173">
@@ -735,23 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GraphExercises/Vertex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding>
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GraphExercises/Edge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -774,13 +729,6 @@
     <entry file="file://$USER_HOME$/Desktop/BFTGraph.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tree/BreadthFirst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LeftJoin/LeftJoin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -792,33 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="80" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GraphExercises/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="103" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/GraphExercises/GraphTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1921">
-          <caret line="115" column="36" selection-start-line="115" selection-start-column="36" selection-end-line="115" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -834,6 +755,58 @@
             <caret line="250" column="57" selection-start-line="250" selection-start-column="57" selection-end-line="250" selection-end-column="57" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GraphExercises/GetEdge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GraphExercises/Vertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tree/BreadthFirst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GraphExercises/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="88" column="37" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GraphExercises/GraphTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
