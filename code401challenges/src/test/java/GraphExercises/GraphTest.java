@@ -106,18 +106,18 @@ public class GraphTest {
         Vertex<String> v5 = graph.addNode("Narnia");
         Vertex<String> v6 = graph.addNode("Naboo");
 
-        graph.addDirectedEdge(v1, v2, 0);
-        graph.addDirectedEdge(v2, v3  , 0);
-        graph.addDirectedEdge(v2, v4, 0);
-        graph.addDirectedEdge(v3, v4,  0);
-        graph.addDirectedEdge(v3, v6, 0);
-        graph.addDirectedEdge(v4, v6, 0);
-        graph.addDirectedEdge(v3, v4, 0);
-        graph.addDirectedEdge(v6, v5, 0);
+        graph.addUndirectedEdge(v1, v2, 0);
+        graph.addUndirectedEdge(v2, v4, 0);
+        graph.addUndirectedEdge(v2, v3, 0);
+        graph.addUndirectedEdge(v3, v4,  0);
+        graph.addUndirectedEdge(v3, v5,  0);
+        graph.addUndirectedEdge(v3, v6, 0);
+        graph.addUndirectedEdge(v4, v6, 0);
+        graph.addUndirectedEdge(v6, v5, 0);
 
 
 
 
-        assertEquals("[Pandora, Arendelle, Metroville, Monstroplolis, Narnia, Naboo]", graph.BFTraversal(v1).toString());
+        assertEquals("[Pandora, Arendelle, Monstroplolis, Metroville, Naboo, Narnia]", graph.BFTraversal(v1).toString());
     }
 }
