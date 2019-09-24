@@ -74,25 +74,30 @@ public class Graph<T>{
     }
 
 //  BFT implementation
-    public ArrayList<T> BFTraversal(Graph<T> graph, T root){
+    public ArrayList<T> BFTraversal(Vertex<T> root){
         ArrayList<T> visited = new ArrayList<>();
         Queue<T> queue = new Queue<>();
 
         if(root == null){
             return visited;
         } else {
-            queue.enqueue(root);
-            visited.add(root);
+            queue.enqueue((T) root);
+            visited.add((T) root);
         }
 
         while(!queue.isEmpty()){
-            for(Vertex<T> vertex : graph.getAdjacencyList().keySet()){
+            for(Vertex<T> vertex : this.getAdjacencyList().keySet()){
 
                 if(!visited.contains(vertex)){
-                    visited.add((T) vertex);
                     queue.enqueue((T) vertex);
+                    visited.add((T)vertex);
+                } else{
+                    queue.dequeue();
                 }
-                break;
+                if(queue.isEmpty()){
+                    break;
+                }
+
             }
         }
         return visited;
