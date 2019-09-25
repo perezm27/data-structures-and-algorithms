@@ -1,20 +1,19 @@
 ## Table of Contents
 
-[Reverse an Array](#Reverse an Array)<br />
-[Shift Array](#Shift Array)<br />
-[Binary Search](#Binary Search)<br />
-[Linked list Insertions](#Linked list Insertions)<br />
-[Linked list k-th position from end Insertion](#Linked list k-th position from end Insertion)</br>
-[Merging two Linked Lists](#Merging two Linked Lists)</br>
-[Implement a Queue With Two Stacks](Implement a Queue With Two Stacks)</br>
-[FIFO Animal Shelters](#FIFO Animal Shelter)<br />
-[Multi-bracket Validation](#Multi-bracket Validation)<br />
+[Reverse an Array](#Reverse-an-Array)<br />
+[Shift Array](#Shift-Array)<br />
+[Binary Search](#Binary-Search)<br />
+[Linked list Insertions](#Linked-list-Insertions)<br />
+[Linked list k-th position from end Insertion](#Linked-list-k-th-position-from-end-Insertion)</br>
+[Merging two Linked Lists](#Merging-two-Linked-Lists)</br>
+[Implement a Queue With Two Stacks](Implement-a-Queue-With-Two-Stacks)</br>
+[FIFO Animal Shelters](#FIFO-Animal-Shelter)<br />
+[Multi-bracket Validation](#Multi-bracket-Validation)<br />
 [FizzBuzz](#FizzBuzz)<br />
-[BFT Binary Tree](#BFT Binary Tree)<br />
-[Route Endpoints](#route-endpoints)<br />
+[BFT Binary Tree](#BFT-Binary-Tree)<br />
 [Max in Binary Tree](#Max-in-Binary-Tree)<br />
-[Repeated Word](#Repeated Word)<br />
-[BFT Graph](#BFT Graph)<br />
+[Repeated Word](#Repeated-Word)<br />
+[BFT Graph](#BFT-Graph)<br />
 
 
 # Reverse an Array
