@@ -1,4 +1,23 @@
-# Code Challenge 01 : Reverse an Array
+## Table of Contents
+
+[Reverse an Array](#Reverse an Array)<br />
+[Shift Array](#Shift Array)<br />
+[Binary Search](#Binary Search)<br />
+[Linked list Insertions](#Linked list Insertions)<br />
+[Linked list k-th position from end Insertion](#Linked list k-th position from end Insertion)</br>
+[Merging two Linked Lists](#Merging two Linked Lists)</br>
+[Implement a Queue With Two Stacks](Implement a Queue With Two Stacks)</br>
+[FIFO Animal Shelters](#FIFO Animal Shelter)<br />
+[Multi-bracket Validation](#Multi-bracket Validation)<br />
+[FizzBuzz](#FizzBuzz)<br />
+[BFT Binary Tree](#BFT Binary Tree)<br />
+[Route Endpoints](#route-endpoints)<br />
+[Max in Binary Tree](#Max-in-Binary-Tree)<br />
+[Repeated Word](#Repeated Word)<br />
+[BFT Graph](#BFT Graph)<br />
+
+
+# Reverse an Array
 A short Java program that reverses an array.
 
 ## Challenge
@@ -18,7 +37,7 @@ Padmapriya Ganapathi
 ![Image description](assets/array_reverse.jpg)
 
 
-# Code Challenge 02 : Shift Array
+# Shift Array
 
 ## Challenge
 Write a function called insertShiftArray which takes in an array and the value to be added.
@@ -43,7 +62,7 @@ Peter Lee
 ## Solution
 ![Image description](assets/challenge2Whiteboard.jpg)
 
-# Code Challenge 03 : Binary Search
+# Binary Search
 
 ## Challenge
 Write a function called BinarySearch which takes in 2 parameters: a sorted array and the search key. 
@@ -63,7 +82,7 @@ Travis Cox
 ## Solution
 ![Image description](assets/BinarySearch.jpg)
 
-# Code Challenge 06 : Linked list Insertions
+# Linked list Insertions
 
 ## Challenge
 Write the following methods for the Linked List class:
@@ -82,7 +101,7 @@ Kevin Couture
 ## Solution
 ![Image description](assets/ll-insertions.jpg)
 
-# Code Challenge 07 : Linked list k-th position from end Insertion
+# Linked list k-th position from end Insertion
 
 ## Challenge
 Write a method for the Linked List class which takes a number, k, as a parameter. Return the node’s value that is k from the end of the linked list. 
@@ -90,7 +109,7 @@ Write a method for the Linked List class which takes a number, k, as a parameter
 ## Approach & Efficiency
 O(n) time complexity for this data structure with O(1) space.
 
-## Code Challenge 08 : Merging two Linked Lists
+## Merging two Linked Lists
 Merge two linked lists.
 
 ## Challenge 
@@ -109,7 +128,7 @@ Try and keep additional space down to O(1). You have access to the Node class an
 [Bomi Bear](https://github.com/bomibear)
 
 
-# Code Challenge 11 : Implement a Queue With Two Stacks
+# Implement a Queue With Two Stacks
 
 ## Challenge
 Do not use an existing Queue. Instead, this PseudoQueue class will implement our standard queue interface (the two methods listed below), but will internally only utilize 2 Stack objects.   
@@ -126,7 +145,7 @@ The Stack instances have only push, pop, and peek methods. You should use your o
 ## Solution
 ![Image description](assets/QueueWithStacks.JPG)
 
-# Code Challenge 12 : First-in, First out Animal Shelter.
+# FIFO Animal Shelter
 
 ## Challenge
 Create a class called AnimalShelter which holds only dogs and cats. The shelter operates using a first-in, first-out approach.
@@ -146,7 +165,7 @@ Create a class called AnimalShelter which holds only dogs and cats. The shelter 
 * Matt Stuhring
 * Nick Paro
 
-## Code Challenge: Class 13
+## Multi-bracket Validation
 Multi-bracket Validation
 
 ## Challenge
@@ -167,7 +186,7 @@ Jack Kinne
 Nick Paro
 
 
-## Code Challenge: Class 16
+## FizzBuzz
 FizzBuzz
 
 ## Challenge
@@ -185,7 +204,7 @@ the nodes dependent on the current node’s value
 [Bomi Bear](https://github.com/bomibear)
 
 
-## Code Challenge : Class 17
+## BFT Binary Tree
 Breadth-first Traversal
 
 ## Challenge 
@@ -204,7 +223,7 @@ print every visited node’s value.
 Jack Kinne  
 Matt Stuhring
 
-## Code Challenge: Class 18
+## Max in Binary Tree
 Find the Maximum Value in a Binary Tree
 
 ## Challenge
@@ -223,7 +242,7 @@ stored in the tree. You can assume that the values stored in the Binary Tree wil
 Jack Kinne  
 Matt Stuhring
 
-## Code Challenge: Class 31
+## Repeated Word
 Find the first repeated word in a book
 
 ## Challenge
@@ -231,7 +250,7 @@ Find the first repeated word in a book
 - [x] Without utilizing any of the built-in library methods available to your language, return the first word to occur more than once in that provided string.
 
 
-## Code Challenge: Class 36
+## BFT Graph
 Implement a breadth-first traversal on a graph.
 
 ## Challenge 
@@ -251,3 +270,17 @@ Provided by CodeFellows
 [Baeldung Tutorial](https://www.baeldung.com/java-graphs)
 
 
+## Code Challenge: Class 38
+Conduct a depth first preorder traversal on a graph
+
+## Feature Tasks
+Create a function that accepts an adjacency list as a graph, and conducts a depth first traversal. 
+Without utilizing any of the built-in methods available to your language, 
+return a collection of nodes in their pre-order depth-first traversal order.
+
+
+## Example
+Input:  
+![Sample Input](/Users/permelfi/cf/data-structures-and-algorithms/code401challenges/assets/SampleGraph.png)
+
+Output: A, B, C, G, D, E, H, F
