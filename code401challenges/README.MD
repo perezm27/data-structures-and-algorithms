@@ -269,7 +269,7 @@ Provided by CodeFellows
 [Baeldung Tutorial](https://www.baeldung.com/java-graphs)
 
 
-## Code Challenge: Class 38
+## DFT Graph
 Conduct a depth first preorder traversal on a graph
 
 ## Feature Tasks
@@ -280,6 +280,6 @@ return a collection of nodes in their pre-order depth-first traversal order.
 
 ## Example
 Input:  
-![Sample Input](/Users/permelfi/cf/data-structures-and-algorithms/code401challenges/assets/SampleGraph.png)
+![Sample Input](assets/SampleGraph.png)
 
 Output: A, B, C, G, D, E, H, F
